@@ -1,0 +1,710 @@
+Fri Sep  5 13:24:04 2025    profilingResults.cprof
+
+         424335 function calls (421737 primitive calls) in 1.318 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      299    0.971    0.003    0.971    0.003 {method 'read' of '_ssl._SSLSocket' objects}
+        1    0.032    0.032    0.032    0.032 {method 'do_handshake' of '_ssl._SSLSocket' objects}
+        1    0.031    0.031    0.031    0.031 {method 'connect' of '_socket.socket' objects}
+     3334    0.024    0.000    0.132    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:389(parse_starttag)
+        1    0.024    0.024    0.024    0.024 {method 'load_verify_locations' of '_ssl._SSLContext' objects}
+    33774    0.019    0.000    0.019    0.000 {method 'match' of 're.Pattern' objects}
+        2    0.017    0.008    0.216    0.108 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:189(goahead)
+     3334    0.012    0.000    0.055    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:990(handle_starttag)
+     3334    0.009    0.000    0.014    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/__init__.py:382(_replace_cdata_list_attribute_values)
+     3130    0.008    0.000    0.044    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:447(parse_endtag)
+     6922    0.007    0.000    0.029    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:829(endData)
+     3335    0.006    0.000    0.023    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:1627(__init__)
+     3334    0.006    0.000    0.064    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:142(handle_starttag)
+10036/7535    0.006    0.000    0.013    0.000 {method 'sub' of 're.Pattern' objects}
+    19215    0.006    0.000    0.006    0.000 {method 'group' of 're.Match' objects}
+     9805    0.005    0.000    0.005    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:377(setup)
+     3334    0.005    0.000    0.030    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:204(handle_endtag)
+    13207    0.005    0.000    0.008    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_markupbase.py:44(updatepos)
+     3333    0.004    0.000    0.009    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:953(_popToTag)
+     3235    0.004    0.000    0.010    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:870(object_was_parsed)
+     6745    0.004    0.000    0.004    0.000 {method 'search' of 're.Pattern' objects}
+    21580    0.004    0.000    0.004    0.000 {method 'append' of 'list' objects}
+     3235    0.004    0.000    0.007    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:1292(__new__)
+    18899    0.003    0.000    0.003    0.000 {method 'get' of 'dict' objects}
+        1    0.003    0.003    0.003    0.003 {method 'decompress' of 'zlib.Decompress' objects}
+     9725    0.003    0.000    0.003    0.000 {method 'count' of 'str' objects}
+     3335    0.003    0.000    0.004    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:812(pushTag)
+    17694    0.003    0.000    0.003    0.000 {method 'lower' of 'str' objects}
+     3235    0.003    0.000    0.005    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:735(string_container)
+    17673    0.003    0.000    0.003    0.000 {method 'end' of 're.Match' objects}
+     2354    0.003    0.000    0.008    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:617(_attribute_match)
+        1    0.003    0.003    0.003    0.003 {built-in method _socket.getaddrinfo}
+     2354    0.003    0.000    0.012    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:539(matches_tag)
+     3334    0.003    0.000    0.003    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:789(popTag)
+20650/20644    0.003    0.000    0.003    0.000 {built-in method builtins.isinstance}
+     3333    0.003    0.000    0.026    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:1056(handle_endtag)
+     2501    0.003    0.000    0.004    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/__init__.py:91(_replace_charref)
+     3270    0.002    0.000    0.002    0.000 {built-in method __new__ of type object at 0x1059b4058}
+     7535    0.002    0.000    0.016    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:104(_unescape_attrvalue)
+     7666    0.002    0.000    0.002    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:426(inner)
+       42    0.002    0.000    0.020    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:130(filter)
+     3334    0.002    0.000    0.008    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:437(check_for_whole_start_tag)
+     1826    0.002    0.000    0.002    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:909(_linkage_fixer)
+     4566    0.002    0.000    0.015    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:725(match)
+     2501    0.002    0.000    0.010    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:92(_replace_attr_charref)
+        1    0.002    0.002    1.318    1.318 <string>:1(<module>)
+     2620    0.002    0.000    0.002    0.000 {method 'findall' of 're.Pattern' objects}
+    12727    0.002    0.000    0.002    0.000 {method 'startswith' of 'str' objects}
+     3383    0.002    0.000    0.004    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:628(_match_attribute_value_helper)
+     3130    0.001    0.000    0.003    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:222(handle_data)
+        1    0.001    0.001    0.001    0.001 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:969(_to_unicode)
+11719/11709    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+     4906    0.001    0.000    0.002    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:293(matches_string)
+     6729    0.001    0.000    0.001    0.000 {method 'start' of 're.Match' objects}
+     3334    0.001    0.000    0.002    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:1821(is_empty_element)
+    11641    0.001    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:2371(cast)
+     3257    0.001    0.000    0.002    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:1068(handle_data)
+     4572    0.001    0.000    0.002    0.000 {built-in method builtins.next}
+     4375    0.001    0.000    0.001    0.000 {method 'join' of 'str' objects}
+        2    0.001    0.000    0.004    0.002 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:105(decompress)
+     4580    0.001    0.000    0.001    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:2788(descendants)
+     2501    0.001    0.000    0.007    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/__init__.py:122(unescape)
+      299    0.001    0.000    0.973    0.003 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1289(recv_into)
+     4906    0.001    0.000    0.001    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:260(_base_match)
+     3335    0.001    0.000    0.001    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/__init__.py:290(can_be_empty_element)
+     2441    0.001    0.000    0.001    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:2169(get)
+     3219    0.001    0.000    0.001    0.000 {method 'keys' of 'dict' objects}
+      299    0.001    0.000    0.974    0.003 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:706(readinto)
+     3351    0.001    0.000    0.001    0.000 {method 'strip' of 'str' objects}
+     3159    0.001    0.000    0.001    0.000 {method 'find' of 'str' objects}
+     3515    0.001    0.000    0.001    0.000 {method 'endswith' of 'str' objects}
+     3335    0.001    0.000    0.001    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/__init__.py:636(set_up_substitutions)
+     3410    0.001    0.000    0.001    0.000 {method 'pop' of 'list' objects}
+     3334    0.001    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_markupbase.py:36(getpos)
+     2487    0.001    0.000    0.001    0.000 {method 'rstrip' of 'str' objects}
+     3130    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:181(clear_cdata_mode)
+       47    0.000    0.000    0.097    0.002 {method 'read' of '_io.BufferedReader' objects}
+     2370    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+      299    0.000    0.000    0.972    0.003 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1129(read)
+     2346    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+        7    0.000    0.000    0.000    0.000 {built-in method marshal.loads}
+        1    0.000    0.000    0.219    0.219 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:211(__init__)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:241(_optimize_charset)
+      299    0.000    0.000    0.000    0.000 {method '_checkReadable' of '_io._IOBase' objects}
+      126    0.000    0.000    0.002    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:350(parse_comment)
+        7    0.000    0.000    0.000    0.000 {built-in method _io.open_code}
+     2354    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:2228(__bool__)
+       52    0.000    0.000    0.877    0.017 {method 'readline' of '_io.BufferedReader' objects}
+      8/5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:511(_parse)
+    20/17    0.000    0.000    0.000    0.000 {built-in method builtins.__build_class__}
+       66    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1596(__or__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1361(_real_close)
+       13    0.000    0.000    0.000    0.000 {method 'join' of 'bytes' objects}
+      126    0.000    0.000    0.001    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:285(handle_comment)
+      299    0.000    0.000    0.000    0.000 {method '_checkClosed' of '_io._IOBase' objects}
+       59    0.000    0.000    0.002    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__init__.py:330(_compile)
+      300    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:744(readable)
+       58    0.000    0.000    0.002    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:171(set_cdata_mode)
+     16/4    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+       21    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:567(_get_chunk_left)
+      600    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1117(_checkClosed)
+       22    0.000    0.000    0.000    0.000 {built-in method posix.stat}
+       80    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:695(__call__)
+        1    0.000    0.000    1.316    1.316 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex04/financial_enhanced.py:4(parser_yahoo)
+      9/4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:37(_compile)
+        1    0.000    0.000    0.098    0.098 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:591(_read_chunked)
+      210    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1589(_get_value)
+        7    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1459(_missing_)
+      7/4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:451(_parse_sub)
+        1    0.000    0.000    0.982    0.982 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:534(getresponse)
+      301    0.000    0.000    0.000    0.000 {method '__exit__' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/stringprep.py:1(<module>)
+       21    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:537(_read_next_chunk_size)
+        1    0.000    0.000    1.075    1.075 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:377(_make_request)
+        4    0.000    0.000    0.000    0.000 {method 'readlines' of '_io._IOBase' objects}
+        1    0.000    0.000    1.075    1.075 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:592(urlopen)
+       40    0.000    0.000    0.097    0.002 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:635(_safe_read)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:782(close)
+       80    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1156(__new__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/__init__.py:108(lookup)
+      153    0.000    0.000    0.000    0.000 {method 'rindex' of 'str' objects}
+       59    0.000    0.000    0.001    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:127(handle_startendtag)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1240(_find_spec)
+        1    0.000    0.000    0.002    0.002 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:775(__init__)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1624(find_spec)
+        6    0.000    0.000    0.000    0.000 {method 'write' of '_io.StringIO' objects}
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:514(_compile_info)
+        1    0.000    0.000    1.076    1.076 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/poolmanager.py:425(urlopen)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:472(_parse_headers)
+        7    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1093(get_code)
+        1    0.000    0.000    0.000    0.000 {function socket.close at 0x1048c4860}
+        3    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/url.py:227(_encode_invalid_chars)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:669(reset)
+      8/1    0.000    0.000    1.318    1.318 {built-in method builtins.exec}
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:218(_parsegen)
+       59    0.000    0.000    0.002    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/__init__.py:287(compile)
+       47    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:131(_path_join)
+        9    0.000    0.000    0.001    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:226(handle_charref)
+        1    0.000    0.000    0.002    0.002 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:377(prepare_markup)
+        4    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:379(__init__)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/parser.py:56(parsestr)
+        1    0.000    0.000    0.103    0.103 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:602(__init__)
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:389(_mk_bitmap)
+        1    0.000    0.000    0.004    0.004 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:494(_decode)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+      8/5    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap>:1349(_find_and_load)
+        1    0.000    0.000    0.034    0.034 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:213(_read_headers)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/_collections.py:335(extend)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:347(__init__)
+        4    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:743(compile)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1498(debug)
+        2    0.000    0.000    0.002    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__init__.py:71(search_function)
+        1    0.000    0.000    0.098    0.098 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:889(_raw_read)
+       12    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/functools.py:686(_c3_merge)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:231(_parse_header_lines)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/__init__.py:204(__init__)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:304(acquire)
+     12/1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/functools.py:713(_c3_mro)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:593(encodings)
+    68/66    0.000    0.000    0.001    0.000 {method 'encode' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/collections/__init__.py:599(__init__)
+        1    0.000    0.000    0.093    0.093 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:718(connect)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:513(cache_from_source)
+       28    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/_policybase.py:301(header_source_parse)
+        1    0.000    0.000    0.844    0.844 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:291(_read_status)
+      6/4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:177(getwidth)
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:429(retries)
+       58    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:199(__get__)
+        1    0.000    0.000    0.878    0.878 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:324(begin)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:137(put)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:102(push)
+       62    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:260(get)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/retry.py:387(is_retry)
+       73    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:239(__next)
+        8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:500(get)
+        1    0.000    0.000    0.032    0.032 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:990(_create)
+      7/4    0.000    0.000    0.003    0.001 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+       28    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/_collections.py:300(add)
+        7    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1294(putheader)
+       18    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1368(__setattr__)
+       19    0.000    0.000    0.001    0.000 {method 'decode' of 'bytearray' objects}
+       28    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1439(_iter_member_by_value_)
+        4    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:576(_code)
+        4    0.000    0.000    0.020    0.005 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:164(find_all)
+       40    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+       39    0.000    0.000    0.000    0.000 {built-in method builtins.any}
+       52    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:167(__getitem__)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1634(__getitem__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:341(__init__)
+       64    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        4    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:970(parse)
+        1    0.000    0.000    0.000    0.000 {built-in method today}
+        1    0.000    0.000    0.001    0.001 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/ssl_.py:225(create_urllib3_context)
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/url.py:367(parse_url)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:145(__exit__)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:173(_type_check)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:683(find_declared_encoding)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:124(setdefault)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1522(_get_spec)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:123(pushlines)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:733(_init_module_attrs)
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:178(_call_parse)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:540(__init__)
+        1    0.000    0.000    0.058    0.058 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:895(_ssl_wrap_socket_and_match_hostname)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/parser.py:41(parse)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:418(request)
+        4    0.000    0.000    0.020    0.005 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:1080(_find_all)
+      7/4    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:911(_load_unlocked)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:2129(getLogger)
+       29    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:2182(get_attribute_list)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:54(__init__)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1423(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1362(getLogger)
+        1    0.000    0.000    0.035    0.035 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:192(_new_conn)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:270(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:645(strip_byte_order_mark)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:221(__init__)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:426(_get_module_lock)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:214(_compile_charset)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:175(__init__)
+       34    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:79(readline)
+        1    0.000    0.000    0.000    0.000 {method '_wrap_socket' of '_ssl._SSLContext' objects}
+       75    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
+       30    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+        2    0.000    0.000    0.002    0.001 {built-in method builtins.__import__}
+        7    0.000    0.000    0.000    0.000 {built-in method _abc._abc_init}
+        1    0.000    0.000    0.035    0.035 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/connection.py:27(create_connection)
+        1    0.000    0.000    0.216    0.216 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:449(feed)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/_collections.py:240(__init__)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:833(spec_from_file_location)
+       58    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1374(__instancecheck__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:84(__init__)
+        7    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+       34    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/_policybase.py:289(_sanitize_header)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/__init__.py:43(normalize_encoding)
+        5    0.000    0.000    0.000    0.000 {method 'read' of '_io.StringIO' objects}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:162(__enter__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:491(_decref_socketios)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:398(notify)
+       34    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:129(__next__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:139(__init__)
+      7/4    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap_external>:1020(exec_module)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/response.py:40(assert_header_parsing)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:74(__new__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1607(__and__)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1214(get_data)
+      105    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.878    0.878 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1386(getresponse)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:257(_parse_path)
+        1    0.000    0.000    0.103    0.103 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:941(read)
+        4    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/_collections.py:257(__getitem__)
+        4    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/url.py:301(_normalize_host)
+       35    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:372(release)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:304(makefile)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:642(_get_cached)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:602(get_content_type)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:425(_close_conn)
+       31    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:175(append)
+     16/4    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1138(putrequest)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_ssl._SSLSocket' objects}
+        1    0.000    0.000    0.035    0.035 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:245(parse_headers)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:806(module_from_spec)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/poolmanager.py:95(_default_key_normalizer)
+       43    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:255(match)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:197(_new_message)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:1170(_close_pool_connections)
+       21    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:89(_unpack_uint32)
+       21    0.000    0.000    0.000    0.000 {method 'find' of 'bytes' objects}
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:303(helper)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:137(_path_split)
+       49    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+        1    0.000    0.000    0.093    0.093 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:1085(_validate_conn)
+        4    0.000    0.000    0.020    0.005 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:2740(find_all)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:235(_get_decoder)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:179(encode)
+        7    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:404(putheader)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:232(__init__)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1619(_get_spec)
+        6    0.000    0.000    0.000    0.000 <frozen _collections_abc>:808(get)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:150(__init__)
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:439(_get_literal_prefix)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1665(__subclasscheck__)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:782(_compile_bytecode)
+        1    0.000    0.000    0.216    0.216 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:152(feed)
+       58    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1337(value)
+       28    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:115(_iter_bits_lsb)
+       28    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:517(set_raw)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:177(get)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:448(_uniq)
+       16    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:491(_make_match_rules)
+       34    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/_policybase.py:319(header_fetch_parse)
+        1    0.000    0.000    0.000    0.000 {method 'close' of '_io.BufferedReader' objects}
+       12    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:1882(_all_strings)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:2199(__init_subclass__)
+       35    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/utils.py:47(_has_surrogates)
+       28    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        1    0.000    0.000    1.076    1.076 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/_request_methods.py:147(request_encode_url)
+        1    0.000    0.000    0.098    0.098 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:463(read)
+       18    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1294(_is_dunder)
+        4    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:225(__init__)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:289(drive)
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:766(_error_catcher)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:384(putrequest)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:697(_classify_pyc)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1449(_iter_member_by_def_)
+        9    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/url.py:330(_idna_encode)
+       14    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:292(tell)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:615(__init__)
+       28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:139(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:504(set_alpn_protocols)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1252(sendall)
+       57    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:2281(__eq__)
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:306(__exit__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:1(<module>)
+        1    0.000    0.000    0.057    0.057 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/ssl_.py:410(ssl_wrap_socket)
+       16    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:988(find_codec)
+       12    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:311(_class_escape)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/readers.py:1(<module>)
+       52    0.000    0.000    0.000    0.000 {built-in method _sre.ascii_iscased}
+        6    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:525(get_text)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(__enter__)
+       29    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/__init__.py:680(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:1044(_new_conn)
+        1    0.000    0.000    0.001    0.001 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/certifi/core.py:21(where)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1658(copy_with)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:133(__init__)
+        2    0.000    0.000    0.000    0.000 <frozen _collections_abc>:108(_check_methods)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1015(close)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/readers.py:23(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:184(close)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:261(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/functools.py:758(_compose_mro)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:730(_validate_timestamp_pyc)
+       22    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:145(_path_stat)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:867(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/url.py:263(_remove_path_dot_segments)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/retry.py:379(_is_method_retryable)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:489(items)
+       28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1226(__exit__)
+        1    0.000    0.000    0.001    0.001 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:930(_convert_from)
+       28    0.000    0.000    0.000    0.000 {built-in method sys.intern}
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:1(<module>)
+        1    0.000    0.000    0.003    0.003 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:960(getaddrinfo)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:369(close)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/functools.py:844(dispatch)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:553(_read_and_discard_trailer)
+       13    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/util.py:19(to_str)
+      8/5    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:674(_check_name_wrapper)
+       54    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:491(_verbose_message)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:117(__init__)
+        4    0.000    0.000    0.000    0.000 {method '__init_subclass__' of 'object' objects}
+        1    0.000    0.000    0.032    0.032 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:449(wrap_socket)
+        1    0.000    0.000    0.000    0.000 {built-in method zlib.decompressobj}
+       28    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1222(__enter__)
+        2    0.000    0.000    0.000    0.000 {function SocketIO.close at 0x1048c56c0}
+       20    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       16    0.000    0.000    0.000    0.000 {method 'isalnum' of 'str' objects}
+        1    0.000    0.000    1.076    1.076 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/_request_methods.py:69(request)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1029(send)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1256(_generic_init_subclass)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:445(cb)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1084(_send_output)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1307(__init__)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1639(<genexpr>)
+       37    0.000    0.000    0.000    0.000 {built-in method _sre.ascii_tolower}
+        4    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1765(isEnabledFor)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/functools.py:800(_find_impl)
+        7    0.000    0.000    0.000    0.000 <frozen abc>:105(__new__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:1(<module>)
+        5    0.000    0.000    0.000    0.000 {method 'settimeout' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/poolmanager.py:346(connection_from_pool_key)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1551(find_spec)
+       14    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:163(__len__)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_build}
+        5    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:497(_real_close)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:230(__init__)
+       13    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:645(parent)
+        3    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/timeout.py:109(__init__)
+       14    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:632(cached)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:329(parse_html_declaration)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:694(__init__)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:29(_splitparam)
+       42    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/collections/__init__.py:613(__missing__)
+     14/8    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap>:480(_call_with_frames_removed)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:292(__subclasshook__)
+        1    0.000    0.000    0.032    0.032 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1365(do_handshake)
+        2    0.000    0.000    0.017    0.008 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:2709(find)
+        3    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:266(handle_entityref)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:143(reset)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_common.py:107(from_package)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:410(_generate_overlap_table)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:2054(__new__)
+        1    0.000    0.000    0.098    0.098 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:832(_fp_read)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/poolmanager.py:321(connection_from_context)
+        8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:14(decode)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:126(flush)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:524(_flush_decoder)
+        8    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_decode}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:980(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1478(__init__)
+       11    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:132(__init__)
+        4    0.000    0.000    0.001    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:173(feed)
+        1    0.000    0.000    0.216    0.216 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:653(_feed)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:164(_path_isfile)
+       42    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/poolmanager.py:245(_new_pool)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/parser.py:17(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:1005(_codec)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1410(_fixupParents)
+        4    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:2894(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/_htmlparser.py:294(handle_decl)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:541(minimum_version)
+        7    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:453(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:256(_get_conn)
+        4    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        4    0.000    0.000    0.000    0.000 {method 'truncate' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:294(_put_conn)
+        5    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 {method 'flush' of 'zlib.Decompress' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:46(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:101(__init__)
+       18    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.RLock' objects}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:420(__exit__)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:281(__init__)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:82(remove)
+       10    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:658(_last_descendant)
+       42    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+       14    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:406(<genexpr>)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:470(_get_charset_prefix)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:79(__init__)
+        7    0.000    0.000    0.000    0.000 {method 'fullmatch' of 're.Pattern' objects}
+       27    0.000    0.000    0.000    0.000 {built-in method posix.fspath}
+        5    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:163(host)
+       21    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/functools.py:930(wrapper)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:669(verify_mode)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/weakref.py:585(__call__)
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:100(_intenum_converter)
+        2    0.000    0.000    0.000    0.000 <frozen codecs>:94(__new__)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:144(_reader)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:329(parent)
+        1    0.000    0.000    0.000    0.000 {built-in method _codecs.lookup}
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:303(__enter__)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:394(_bytes_to_codes)
+       24    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:576(_usable)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/weakref.py:568(__init__)
+       29    0.000    0.000    0.000    0.000 {method 'popleft' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/poolmanager.py:199(__init__)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:498(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:378(getregentry)
+        5    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex04/financial_enhanced.py:32(<lambda>)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/poolmanager.py:292(connection_from_host)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:33(getregentry)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:277(_raw_path)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1128(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen os>:712(__getitem__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/_collections.py:82(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/request.py:199(body_to_chunks)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1233(path_stats)
+        2    0.000    0.000    0.000    0.000 {built-in method _abc._abc_instancecheck}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:155(_path_is_mode_type)
+        8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:573(isstring)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:243(get_payload)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:475(_init_decoder)
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1375(_gcd_import)
+        8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:82(groups)
+       13    0.000    0.000    0.000    0.000 <frozen _collections_abc>:439(__subclasshook__)
+        7    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:108(__init__)
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/url.py:100(__new__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1322(endheaders)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:982(find_spec)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:954(fix_flags)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/readers.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:517(family)
+        8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1066(_output)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:318(_is_owned)
+        1    0.000    0.000    0.000    0.000 <frozen os>:794(encode)
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:2073(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'getsockopt' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:227(__str__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:81(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/readers.py:137(NamespaceReader)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/__init__.py:71(import_module)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:40(CompatibilityFiles)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/readers.py:64(MultiplexedPath)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:190(_path_abspath)
+        9    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:112(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:245(_from_parsed_parts)
+        7    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/ssl_.py:484(is_ipaddress)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:185(_path_isabs)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:136(__enter__)
+        5    0.000    0.000    0.000    0.000 {method 'groups' of 're.Match' objects}
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_abc.py:130(with_segments)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:501(close)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:441(_encode_hostname)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:411(__subclasshook__)
+        8    0.000    0.000    0.000    0.000 {method 'remove' of 'list' objects}
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1500(_path_importer_cache)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_common.py:80(_)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:1121(closed)
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/timeout.py:188(clone)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:260(_collect_type_parameters)
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_compiler.py:431(_get_iscased)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:507(detach)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/_collections.py:100(__setitem__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/connection.py:93(_set_socket_options)
+        1    0.000    0.000    0.000    0.000 {method 'getpeername' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 <frozen posixpath>:72(join)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:71(close)
+        3    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/timeout.py:126(resolve_default_timeout)
+        4    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        4    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/re/_parser.py:76(__init__)
+        7    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/_virtualenv.py:52(find_spec)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1223(get_resource_reader)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/weakref.py:414(__getitem__)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:626(get_content_maintype)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/timeout.py:245(read_timeout)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_common.py:51(files)
+        3    0.000    0.000    0.000    0.000 {method 'subn' of 're.Pattern' objects}
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/ssl_.py:186(resolve_cert_reqs)
+        7    0.000    0.000    0.000    0.000 {built-in method _weakref._remove_dead_weakref}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/_collections.py:93(__getitem__)
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:505(__new__)
+        3    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        2    0.000    0.000    0.000    0.000 <frozen abc>:117(__instancecheck__)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:28(get_resource_reader)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:430(close)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:599(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:559(options)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1225(send)
+        5    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:305(_qsize)
+        4    0.000    0.000    0.000    0.000 {method 'extend' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/timeout.py:172(from_float)
+        1    0.000    0.000    0.000    0.000 {method 'setsockopt' of '_socket.socket' objects}
+        4    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/filter.py:438(includes_everything)
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:346(_get_timeout)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:308(_put)
+        2    0.000    0.000    0.000    0.000 {method 'tolist' of 'memoryview' objects}
+        2    0.000    0.000    0.000    0.000 {built-in method posix._path_splitroot_ex}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:949(_wrap_ipv6)
+        3    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:710(_init_length)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:442(flush)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:237(_format_parsed_parts)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/weakref.py:427(__setitem__)
+        7    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/socket.py:523(type)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:201(__new__)
+        3    0.000    0.000    0.000    0.000 {method 'split' of 'bytes' objects}
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1390(_handle_fromlist)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:677(verify_mode)
+        7    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1285(_sanity_check)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:430(__new__)
+        1    0.000    0.000    0.000    0.000 {method '_set_alpn_protocols' of '_ssl._SSLContext' objects}
+        9    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/timeout.py:130(_validate_timeout)
+        9    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:653(has_location)
+        8    0.000    0.000    0.000    0.000 {method 'seek' of '_io.StringIO' objects}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/timeout.py:202(start_connect)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/url.py:349(_encode_target)
+        1    0.000    0.000    0.032    0.032 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/ssl_.py:508(_ssl_wrap_socket_impl)
+        1    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:149(_native)
+        4    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+        8    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:2204(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen posixpath>:229(expanduser)
+        3    0.000    0.000    0.000    0.000 {method 'cast' of 'memoryview' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:555(options)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:163(wrap_spec)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:46(SpecPath)
+        2    0.000    0.000    0.000    0.000 {method 'pop' of 'collections.OrderedDict' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:252(_from_parsed_string)
+        5    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+        3    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:164(_type_convert)
+        4    0.000    0.000    0.000    0.000 {method 'copy' of 'dict' objects}
+        6    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/typing.py:1427(<genexpr>)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1184(__init__)
+        4    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(__init__)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:453(isclosed)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:569(hostname_checks_common_name)
+        3    0.000    0.000    0.000    0.000 {method 'count' of 'bytes' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:81(ChildPath)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:12(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1751(getEffectiveLevel)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/__init__.py:765(_initialize_xml_detector)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:211(is_multipart)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:140(joinpath)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:9(Codec)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:396(_check_close)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:205(_checkLevel)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:311(_get)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:661(verify_flags)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:666(release_conn)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_markupbase.py:27(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/readers.py:38(ZipReader)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:112(OrphanPath)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1209(get_filename)
+        3    0.000    0.000    0.000    0.000 {method 'gettimeout' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:1145(_normalize_host)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/_markupbase.py:32(reset)
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/__init__.py:313(deprecated_argument)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/enum.py:1456(<lambda>)
+        1    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:7(SpecLoaderAdapter)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:158(__init__)
+        3    0.000    0.000    0.000    0.000 {built-in method _socket.getdefaulttimeout}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:665(verify_flags)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/connection.py:103(allowed_gai_family)
+        1    0.000    0.000    0.001    0.001 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_common.py:33(wrapper)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1302(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:178(Codec)
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/_request_methods.py:51(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/html/parser.py:161(close)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/readers.py:22(FileReader)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:272(IncrementalEncoder)
+        1    0.000    0.000    0.000    0.000 {method 'extend' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1286(_validate_host)
+        3    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/timeout.py:227(connect_timeout)
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/__init__.py:282(reset)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1017(create_module)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:210(_pop_message)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/threading.py:122(RLock)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/__init__.py:791(_root_tag_encountered)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/dammit.py:979(declared_html_encoding)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:355(proxy_is_forwarding)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/retry.py:270(from_int)
+        2    0.000    0.000    0.000    0.000 {built-in method atexit.register}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/message.py:337(set_payload)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1269(_validate_method)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:684(data)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/poolmanager.py:390(_merge_pool_kwargs)
+        2    0.000    0.000    0.000    0.000 {built-in method sys.audit}
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/ssl_.py:209(resolve_ssl_version)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:20(TraversableResourcesLoader)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:17(IncrementalEncoder)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/functools.py:767(is_related)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/url.py:121(request_uri)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:926(_get_hostport)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1265(_encode_request)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:182(host)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/builder/__init__.py:274(initialize_soup)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:820(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/http/client.py:1278(_validate_path)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/response.py:369(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/bs4/element.py:2232(__setitem__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:16(__getattr__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/collections/__init__.py:673(update)
+        1    0.000    0.000    0.000    0.000 <frozen posixpath>:42(_get_sep)
+        2    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:341(is_closed)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:298(root)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/request.py:144(set_file_position)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/pathlib/_local.py:307(_tail)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:21(IncrementalDecoder)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:316(IncrementalDecoder)
+        1    0.000    0.000    0.000    0.000 {method 'append' of 'bytearray' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/logging/__init__.py:1354(disable)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_itertools.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/readers.py:34(files)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:25(StreamWriter)
+        1    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:444(__init__)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/ssl.py:1121(_check_connected)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/cp1252.py:28(StreamReader)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/queue.py:302(_init)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/poolmanager.py:412(_proxy_requires_url_absolute_form)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:25(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connection.py:362(proxy_is_tunneling)
+        1    0.000    0.000    0.000    0.000 {method 'fileno' of '_socket.socket' objects}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:373(StreamReader)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/encodings/idna.py:370(StreamWriter)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_adapters.py:141(__init__)
+        1    0.000    0.000    0.000    0.000 {built-in method time.monotonic}
+        1    0.000    0.000    0.000    0.000 {function socket.detach at 0x1048c4900}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:447(__enter__)
+        2    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/email/feedparser.py:126(__iter__)
+        1    0.000    0.000    0.000    0.000 {function HTTPResponse.flush at 0x1049a1120}
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/contextlib.py:450(__exit__)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/util/proxy.py:11(connection_requires_http_tunnel)
+        1    0.000    0.000    0.000    0.000 /Users/valeriyamaidanova/Documents/21school/DSBootcamp/day03/src/ex00/youngtar/lib/python3.13/site-packages/urllib3/connectionpool.py:337(_validate_conn)
+        1    0.000    0.000    0.000    0.000 /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/importlib/resources/_common.py:173(_)
+
+
